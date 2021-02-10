@@ -3,16 +3,16 @@ services:
     image: mysql
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: "password"
+      MYSQL_ROOT_PASSWORD: 'password'
     ports:
-      - "3306:3306"
+      - '3306:3306'
     expose:
-      - "3306"
+      - '3306'
 
   adminer:
     depends_on:
       - db
-    container_name: "adminer"
+    container_name: 'adminer'
     image: adminer
     restart: always
     ports:
