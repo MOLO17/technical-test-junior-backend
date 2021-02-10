@@ -1,15 +1,9 @@
-/* eslint-disable @typescript-eslint/no-var-requires, functional/immutable-data */
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const path = require('path');
 
 const realativeCoverageRoot = path.relative(__dirname, process.cwd());
 
 module.exports = {
-  transform: {
-    '\\.[tj]s': [
-      'babel-jest',
-      { configFile: path.join(__dirname, 'babel.config.js') },
-    ],
-  },
   testMatch: [path.join(process.cwd(), '**/*.spec.ts')],
   coverageDirectory: path.join(process.cwd(), 'coverage'),
   collectCoverageFrom: [
