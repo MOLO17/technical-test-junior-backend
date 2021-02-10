@@ -1,53 +1,39 @@
-# MOLO17 Technical test for junior backend devs
+# M17 technical test project starter
 
-This is a basic repository with some tools to get you started on the technical
-test, if you need the project specification and instructions, please refer to
-the docs we sent you or just send an email to your referent.
+This is a started project to help you build your own solution for the technical test.
+If you're missing the test requirements or you need some more clarifications (functional or technical), please don't hesitate to contact your M17 reference or send an email to web@molo17.com.
 
-We acknowledge that the specs are a little conservative but feel free to ask
-anything about it, even technical details if you're stuck on something.
+## Programming language
 
-## Typescript and Database choice
+We chose **Typescript** because it's the main language used in our projects. This doesn't mean that we don't accept technical tests written in other languages, feel free to use whatever you feel more comfortable with.
 
-The reason behind our choice is simply that all of our projects are all
-typescript. This does not mean that we do not accept technical tests written in
-other languages, feel free to use all the tools at your disposal and with which
-you feel comfortable.
+If you do, however, chose to use Typescript we got everything set up to get you started.
 
-If you do, however, chose to use typescript we got everything set up to get you
-started.
+## Database
 
-As for the database we currently have two basic `docker-compose` files that set
-up a simple mysql or mongodb database in your machine. You can however chose to
-use another database of your choice or even use a cloud solution (we suggest
-[MongoDB Atlas](https://www.mongodb.com/cloud/atlas) as it gives you a free
-512MB sandbox to play with and no credit card is needed)
+In this project, you will find two basics [docker-compose](https://docs.docker.com/compose/) files that can be used to run [MongoDB](mongodb-docker-compose.yml) or [MySQL](mysql-docker-compose.yml).
+You can however use another database of your choice or even use a cloud solution (we suggest [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) as it gives you a free 512MB sandbox to play with and no credit card is needed).
 
-## Requirements
+## Dependencies
 
-- Node.js > 12.x
-- Visual Studio Code (optional)
-- Docker (optional)
-- Yarn (optional)
+- **Node.js** > 12.x;
+- **Visual Studio Code** (optional);
+- **Docker** (optional);
+- **Yarn** (optional).
 
-## Install instructions:
+## Setup and configuration
 
-- Run `npm install` or `yarn`
+- Run `npm install` or `yarn`;
 - If you chose to use docker:
-  `docker-compose -f {mysql | mongodb}-docker-compose.yml up`
+  `docker-compose -f {mysql | mongodb}-docker-compose.yml up`;
 - If you use vscode as your editor we added some extensions suggestion, install
-  them by clicking on the dialog when prompted (usually at startup)
-- Run development server `npm start` or `yarn start`
+  them by clicking on the dialog when prompted (usually at startup);
+- Run development server `npm start` or `yarn start`.
 
 ## Last but not least
 
-Feel free to change anything in this or just start from scratch and most
-importantly, we hope you have fun!
-
-# Contacts
-
-Please refer to your referent or just send us an email at web@molo17.com if you
-got any inquiries.
+Feel free to change anything in this project or just start it from scratch.
+And most importantly, we hope you have fun!
 
 # Who we are
 
@@ -71,16 +57,11 @@ got any inquiries.
   </a>
 </p>
 
-MOLO17, a Harbor Group company, is a future-oriented organization that shapes
-challenging projects using a human-centered approach. It is the partner of
-choice for companies looking for expertise and security in the design and
-development process of cutting-edge Web and Mobile solutions. We develop the
-future, now.
+MOLO17, a Harbor Group company, is a future-oriented organization that shapes challenging projects using a human-centered approach. It is the partner of choice for companies looking for expertise and security in the design and development process of cutting-edge Web and Mobile solutions. We develop the future, now.
 
 # We are hiring!
 
-Our teams are in constant development and we grew a lot, so we must keep on
-going! Check if there are any open job position at:
+Our teams are in constant development and we grew a lot, so we must keep on going! Check if there are any open job position at:
 
 - [Official MOLO17 careers page](https://molo17.com/careers/)
 - [LinkedIn Jobs Listing](https://www.linkedin.com/company/molo17-srl/jobs/)
