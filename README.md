@@ -56,7 +56,7 @@ got any inquiries.
     <img src="https://media.giphy.com/media/Xzw83jUGXIOpCjfo52/giphy.gif">
   </a>
 </p>
-<div style="display: flex; justify-content: space-between; width: 220px; margin: auto;">
+<p align="center">
   <a target="_blank" href="https://www.facebook.com/MOLO17Srl/">
     <img width="40" src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512">
   </a>
@@ -69,7 +69,7 @@ got any inquiries.
   <a target="_blank" href="https://twitter.com/MOLO17srl">
     <img width="40" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png">
   </a>
-</div>
+</p>
 
 MOLO17, a Harbor Group company, is a future-oriented organization that shapes
 challenging projects using a human-centered approach. It is the partner of
