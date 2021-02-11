@@ -57,7 +57,7 @@ And most importantly, we hope you have fun!
   </a>
 </p>
 
-MOLO17, a Harbor Group company, is a future-oriented organization that shapes challenging projects using a human-centered approach. It is the partner of choice for companies looking for expertise and security in the design and development process of cutting-edge Web and Mobile solutions. We develop the future, now.
+MOLO17, a Harbor Group company, is a future-oriented organization that gives shape to challenging projects using a human-centered approach. It is the partner of choice for companies looking for expertise and security in the design and development process of cutting-edge Web and Mobile solutions. We develop the future, now.
 
 # We are hiring!
 
